@@ -1,18 +1,23 @@
 [submodule "openfpm_vcluster"]
 	path = openfpm_vcluster
-	url = https://github.com/IBirdSoft/openfpm_vcluster.git
+	url = https://github.com/arturtoshev/openfpm_vcluster.git
+	branch = llvm14
 [submodule "openfpm_devices"]
 	path = openfpm_devices
-	url = https://github.com/IBirdSoft/openfpm_devices.git
+	url = https://github.com/arturtoshev/openfpm_devices.git
+	branch = llvm14
 [submodule "openfpm_io"]
 	path = openfpm_io
-	url = https://github.com/IBirdSoft/openfpm_io.git
+	url = https://github.com/arturtoshev/openfpm_io.git
+	branch = llvm14
 [submodule "openfpm_data"]
 	path = openfpm_data
-	url = https://github.com/IBirdSoft/openfpm_data.git
+	url = https://github.com/arturtoshev/openfpm_data.git
+	branch = llvm14
 [submodule "openfpm_numerics"]
 	path = openfpm_numerics
-	url = https://github.com/IBirdSoft/openfpm_numerics.git
+	url = https://github.com/arturtoshev/openfpm_numerics.git
+	branch = llvm14
 [submodule "gdbgui"]
 	path = gdbgui
 	url = https://github.com/incardon/gdbgui.git
