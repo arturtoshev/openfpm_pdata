@@ -466,8 +466,8 @@ do
       conf_options="$conf_options -DCUDA_ON_BACKEND=$ac_optarg"
       if [ x"$ac_optarg" != x"CUDA" ]; then
       	conf_options="$conf_options"
-      # else
-      # 	conf_options="$conf_options -DCMAKE_CUDA_HOST_COMPILER=$(which $CXX)"
+      else
+      	conf_options="$conf_options -DCMAKE_CUDA_HOST_COMPILER=$(which $CXX)"
       fi
       if [ x"$CXXCUDA" == x"" ]; then
       	conf_options="$conf_options"
