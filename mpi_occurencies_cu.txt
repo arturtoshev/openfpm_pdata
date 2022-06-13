@@ -1,0 +1,20 @@
+openfpm_data/src/isolation.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/Grid/cuda/cuda_grid_gpu_int.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_heat_stencil_3d.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_get_nn.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_insert_single.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_heat_stencil_sparse.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_stencil_heat_host.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_heat_stencil.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_insert_stencil.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_get_single.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_insert_block.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/performance/SparseGridGpu_performance_tests.cu:#define DISABLE_MPI_WRITTERS
+openfpm_data/src/SparseGridGpu/tests/SparseGridGpu_tests.cu:#define DISABLE_MPI_WRITTERS
+openfpm_vcluster/src/VCluster/cuda/VCluster_semantic_unit_cuda_tests.cu:	test_ssend_recv_layout_switch<CudaMemory>(MPI_GPU_DIRECT);
+example/Vector/7_SPH_dlb_gpu_opt/main.cu:    // Note: To get the process number do MPI_Init and and use the MPI_Comm_rank. VCluster is not available before openfpm_init
+example/Vector/7_SPH_dlb_gpu_opt/main.cu:    // MPI_Init(&argc,&argv);
+example/Vector/7_SPH_dlb_gpu_opt/main.cu:    // MPI_Comm_rank(MPI_COMM_WORLD,&rank);
+example/Vector/1_gpu_first_step/main.cu:    // Note: To get the process number do MPI_Init and and use the MPI_Comm_rank. VCluster is not available before openfpm_init
+example/Vector/1_gpu_first_step/main.cu:    // MPI_Init(&argc,&argv);
+example/Vector/1_gpu_first_step/main.cu:    // MPI_Comm_rank(MPI_COMM_WORLD,&rank);
